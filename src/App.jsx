@@ -18,7 +18,7 @@ export default function App() {
                     <Titulo className="titulo" titulo='SeusPets'></Titulo>
                     <Input className="input"></Input>
                     
-                    <Icones><i><FontAwesomeIcon icon={["fas", "coffee"]} /></i></Icones>
+                    <a href="">ìcone</a>
                     
                     <Botao className='botao' titulo='Assinatura'></Botao>
                     <Botao className='botao' titulo='Minha Conta'></Botao>
