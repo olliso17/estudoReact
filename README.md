@@ -69,3 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# estudoReact"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin git@github.com:olliso17/estudoReact.git git push -u origin main
+"# estudoReact"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/olliso17/estudoReact.git git push -u origin main
