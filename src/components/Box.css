@@ -1,0 +1,80 @@
+.container {
+    background-color: #ae52d4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.container .topo {
+    background-color: #ae52d4;
+    width: 100%;
+    height: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.container .titulo {
+    color: white;
+    flex-direction: row;
+    margin: 1vw;
+    flex-grow: 1;
+    font-size: 2.5vw;
+}
+
+.container .input {
+    flex-direction: row;
+    margin: 1vw;
+    width: 1vw;
+    height: 1.5vw;
+    border-radius: 0.5vw;
+    border-style: none;
+    flex-grow: 2;
+}
+
+.container .header {
+    margin-top: 1vw;
+    background-color: #7b1fa2;
+    width: 100%;
+    height: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.container .body {
+    background-color: #ae52d4;
+    height: 40vw;
+}
+
+.container .fundo {
+    height: 5vw;
+    background-color: #4a0072;
+}
+
+.container .botaoIcone {
+    background-color: white;
+}
+
+.container .botao {
+    color: white;
+    display: flex;
+    margin: 0.5vw;
+    width: 7vw;
+    height: 2vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+    font-size: 1vw;
+    background-color: #ae52d4;
+}
+
+.container .botao:hover {
+    background-color: #4a0072;
+}
