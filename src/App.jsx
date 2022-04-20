@@ -35,6 +35,7 @@ export default function App() {
 
                 </Box>
                 <Box className='body'>
+                    <Titulo className="titulo" titulo='Animais Cadastrados'></Titulo>
                     <ListaAnimais></ListaAnimais>
                 </Box>
                 <Box className='fundo'></Box>
