@@ -2,7 +2,7 @@ import React from "react";
 
 export default props=>{
     return (
-        <table>
+        <table className={props.className}>
             <thead>
                 <tr>
                     <th>Id</th>

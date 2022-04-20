@@ -7,6 +7,12 @@
     width: 100%;
 }
 
+.container .tabelaPet {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .container .topo {
     background-color: #ae52d4;
     width: 100%;
@@ -49,8 +55,13 @@
 }
 
 .container .body {
+    width: 100%;
     background-color: #ae52d4;
+    width: 100%;
     height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container .fundo {

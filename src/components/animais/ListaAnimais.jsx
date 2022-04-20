@@ -1,6 +1,7 @@
 import React from "react";
 import animais from "./animais";
 import Tabela from "../Tabela";
+import '../cards/Box.css'
 
 
 export default props =>{
@@ -21,7 +22,7 @@ export default props =>{
         }
     );
     return(
-        <Tabela conteudo = {animal}></Tabela>
+        <Tabela className="tabelaPets" conteudo = {animal}></Tabela>
    
      
     );
