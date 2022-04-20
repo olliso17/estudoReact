@@ -4,7 +4,7 @@ export default [{
         idade: 2,
         nome: 'Pipo',
         sexo: 'masculino',
-        imagem: 'https://tocadobichomaringa.com.br/wp-content/uploads/2021/10/poodle-branco.jpg'
+        imagem: 'https://s2.glbimg.com/nvjFq8VRjyrpdQqaOeywz-5DFwY=/e.glbimg.com/og/ed/f/original/2021/08/27/captura_de_tela_2021-08-27_as_11.01.15.png'
     },
     {
         id: 2,
@@ -12,7 +12,7 @@ export default [{
         idade: 3,
         nome: 'lulinha',
         sexo: 'feminino',
-        imagem: 'https://saude.abril.com.br/wp-content/uploads/2021/03/bichos-foto-vauvau-Getty-Images.png?quality=85&strip=info&resize=680,453'
+
     },
     {
         id: 3,
@@ -20,7 +20,6 @@ export default [{
         idade: 5,
         nome: 'lico',
         sexo: 'masculino',
-        imagem: 'https://oregional.net/wp-content/uploads/2020/05/P%C3%A1ssaros-3.jpg'
     },
     {
         id: 4,
@@ -28,6 +27,6 @@ export default [{
         idade: 5,
         nome: 'chico',
         sexo: 'masculino',
-        imagem: 'https://www.petz.com.br/blog/wp-content/uploads/2021/08/tempo-de-vida-da-cobra.webp'
+
     },
 ]

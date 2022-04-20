@@ -4,7 +4,7 @@ import Botao from "./components/botoes/Botao";
 import Titulo from "./components/Titulo";
 import Icones from "./components/Icones";
 import Input from "./components/Input";
-import ListaAnimais from "./animais/ListaAnimais";
+import ListaAnimais from "./components/animais/ListaAnimais";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
