@@ -1,5 +1,5 @@
 import React from "react";
-import '../components/Box.css'
+import '../components/cards/Box.css'
 
 
 export default props =>{

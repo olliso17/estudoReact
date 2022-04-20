@@ -1,5 +1,5 @@
 import React from "react";
-import '../components/Box.css'
+import '../components/cards/Box.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default (props)=>{

@@ -1,9 +1,10 @@
 import React from "react";
-import Box from "./components/Box";
-import Botao from "./components/Botao";
+import Box from "./components/cards/Box";
+import Botao from "./components/botoes/Botao";
 import Titulo from "./components/Titulo";
 import Icones from "./components/Icones";
 import Input from "./components/Input";
+import ListaAnimais from "./animais/ListaAnimais";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
@@ -33,7 +34,9 @@ export default function App() {
                     <Botao className='botao' titulo='Répteis'></Botao>
 
                 </Box>
-                <Box className='body'></Box>
+                <Box className='body'>
+                    <ListaAnimais></ListaAnimais>
+                </Box>
                 <Box className='fundo'></Box>
             </Box>
         </>
