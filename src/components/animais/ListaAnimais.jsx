@@ -6,11 +6,21 @@ import '../cards/Box.css'
 
 export default props =>{
   
+    function getIndice(){
+        return <tr >
+        <th>Id</th>
+        <th>Tipo</th>
+        <th>Idade</th>
+        <th>Nome</th>
+        <th>Sexo</th>
+    </tr>
+    
+    }
     const  animal = animais.map(
        
         animais=>{
            
-            return  <tr>
+            return  <tr className='conteudo'>
                         <td>{animais.id}</td>
                         <td>{animais.tipo}</td>
                         <td>{animais.idade}</td>
@@ -22,7 +32,7 @@ export default props =>{
         }
     );
     return(
-        <Tabela className="tabelaPets" conteudo = {animal}></Tabela>
+        <Tabela texto="Tabela Animais" className="divPet" classTabela="tabelaPets" indice={getIndice()} conteudo = {animal}></Tabela>
    
      
     );

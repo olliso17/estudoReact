@@ -36,7 +36,7 @@ export default function App() {
                 </Box>
                 <Box className='body'>
                     
-                    <ListaAnimais>
+                    <ListaAnimais >
                     </ListaAnimais>
                 </Box>
                 <Box className='fundo'></Box>

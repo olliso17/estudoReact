@@ -2,24 +2,21 @@ import React from "react";
 
 export default props=>{
     return (
-        <table className={props.className}>
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Tipo</th>
-                    <th>Idade</th>
-                    <th>Nome</th>
-                    <th>Sexo</th>
-                </tr>
-                
+        <div className={props.className}>
+           <h1>{props.texto}</h1> 
+            <table className={props.classTabela}>
+                <thead>
+                    {props.indice}
 
-            </thead>
+                </thead>
 
-            <tbody>
+                <tbody>
 
-                    {props.conteudo}
+                        {props.conteudo}
 
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
+        
     );
 }

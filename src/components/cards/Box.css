@@ -7,10 +7,33 @@
     width: 100%;
 }
 
-.container .tabelaPet {
+.container .divPet {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    flex-direction: column;
+}
+
+.divPet .tabelaPets {
     width: 100%;
     display: flex;
+    font-size: 4vw;
     flex-direction: column;
+}
+
+.divPet thead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ae52d4;
+}
+
+.divPet .conteudo {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .container .topo {
